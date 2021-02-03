@@ -6,8 +6,7 @@ const randomColor = (num) => {
     const r = Math.floor(Math.random() * num);
     const g = Math.floor(Math.random() * num);
     const b = Math.floor(Math.random() * num);
-    const newColor = `rgb(${r},${g},${b})`;
-    return newColor;
+    return `rgb(${r}, ${g}, ${b})`
 }
 
 btn.addEventListener('click', () => {
